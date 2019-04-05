@@ -11,9 +11,27 @@ sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
+	flatDir {
+       dirs 'libs'
+   }
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile files('libs/SuperfinancieraWebServiceTRMClientJava.jar',
+	'libs/saaj.jar',
+	'libs/org.apache.commons.logging_1.0.4.v201101211617.jar',
+	'libs/mail.jar',
+	'libs/jaxrpc.jar',
+	'libs/javax.wsdl_1.6.2.v201012040545.jar',
+	'libs/commons-discovery-0.2.jar',
+	'libs/axis.jar',
+	'libs/activation.jar')
+	// https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library
+compile group: 'org.hamcrest', name: 'hamcrest-library', version: '2.1'
+	// https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path
+compile group: 'com.jayway.jsonpath', name: 'json-path', version: '2.4.0'
+	
+	
 }
