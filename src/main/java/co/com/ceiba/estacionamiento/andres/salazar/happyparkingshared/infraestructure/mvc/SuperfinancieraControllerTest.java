@@ -1,7 +1,5 @@
 package co.com.ceiba.estacionamiento.andres.salazar.happyparkingshared.infraestructure.mvc;
 
-import static org.junit.Assert.fail;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

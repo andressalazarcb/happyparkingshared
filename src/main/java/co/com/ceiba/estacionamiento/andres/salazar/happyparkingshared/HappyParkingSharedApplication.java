@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HappyparkingsharedApplication {
+public class HappyParkingSharedApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HappyparkingsharedApplication.class, args);
+		SpringApplication.run(HappyParkingSharedApplication.class, args);
 	}
 
 }
