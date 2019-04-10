@@ -3,7 +3,8 @@ package co.com.ceiba.estacionamiento.andres.salazar.happyparkingshared.domain;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.stereotype.Component;
 
-import co.com.sc.nexura.superfinanciera.action.generic.services.trm.action.TCRMServicesInterfaceProxy;
+import co.com.ceiba.estacionamiento.andres.salazar.happyparkingshared.infraestructure.superfinanciera.TCRMServicesInterfaceProxy;
+
 
 @Component
 public class TCRMServicesInterfaceProxyFactory implements FactoryBean<TCRMServicesInterfaceProxy>{

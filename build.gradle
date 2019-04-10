@@ -19,7 +19,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	compile files('libs/SuperfinancieraWebServiceTRMClientJava.jar',
+	compile files(
 	'libs/saaj.jar',
 	'libs/org.apache.commons.logging_1.0.4.v201101211617.jar',
 	'libs/mail.jar',

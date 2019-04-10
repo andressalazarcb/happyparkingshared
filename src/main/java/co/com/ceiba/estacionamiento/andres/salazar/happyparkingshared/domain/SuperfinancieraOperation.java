@@ -6,7 +6,8 @@ import java.util.Calendar;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import co.com.sc.nexura.superfinanciera.action.generic.services.trm.action.TcrmResponse;
+import co.com.ceiba.estacionamiento.andres.salazar.happyparkingshared.infraestructure.superfinanciera.TcrmResponse;
+
 
 @Component
 public class SuperfinancieraOperation {
