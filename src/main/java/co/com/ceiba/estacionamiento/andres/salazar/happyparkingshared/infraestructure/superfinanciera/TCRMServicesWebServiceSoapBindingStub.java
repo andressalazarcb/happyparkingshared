@@ -1,5 +1,6 @@
 package co.com.ceiba.estacionamiento.andres.salazar.happyparkingshared.infraestructure.superfinanciera;
 
+@SuppressWarnings("rawtypes")
 public class TCRMServicesWebServiceSoapBindingStub extends org.apache.axis.client.Stub implements TCRMServicesInterface
 {
 	private java.util.Vector cachedSerClasses = new java.util.Vector();
